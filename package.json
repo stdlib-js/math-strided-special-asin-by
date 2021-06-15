@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-strided-special-asin-by",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Compute the arcsine of each element retrieved from an input strided array via a callback function.",
   "license": "Apache-2.0",
   "author": {
