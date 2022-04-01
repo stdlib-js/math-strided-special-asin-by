@@ -1,0 +1,44 @@
+{
+  "name": "@stdlib/math-strided-special-asin-by",
+  "version": "0.0.0",
+  "description": "Compute the arcsine of each element retrieved from an input strided array via a callback function.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-strided-special-asin-by.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "math.asin",
+    "asin",
+    "arcsine",
+    "sine",
+    "inverse",
+    "trig",
+    "trigonometry",
+    "radians",
+    "angle",
+    "vector",
+    "array",
+    "strided",
+    "ndarray",
+    "element-wise",
+    "map",
+    "transform",
+    "accessor",
+    "callback",
+    "clbk"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
