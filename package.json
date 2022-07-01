@@ -40,7 +40,8 @@
     "@stdlib/math-base-special-asin": "^0.0.x",
     "@stdlib/strided-base-map-by": "^0.0.x",
     "@stdlib/types": "^0.0.x",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x"
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x"
   },
   "devDependencies": {
     "@stdlib/array-filled": "^0.0.x",
