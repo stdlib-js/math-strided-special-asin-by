@@ -44,6 +44,7 @@
   },
   "devDependencies": {
     "@stdlib/array-filled": "^0.0.x",
+    "@stdlib/array-filled-by": "^0.0.x",
     "@stdlib/array-float64": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
     "@stdlib/math-base-assert-is-nan": "^0.0.x",
