@@ -43,25 +43,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-strided-special-asin-by
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import asinBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-asin-by@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-strided-special-asin-by/tags). For example,
-
-```javascript
-import asinBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-asin-by@v0.1.0-esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-asin-by@esm/index.mjs';
+var asinBy = require( '@stdlib/math-strided-special-asin-by' );
 ```
 
 #### asinBy( N, x, strideX, y, strideY, clbk\[, thisArg] )
@@ -138,7 +143,7 @@ asinBy( 3, x, 2, y, -1, accessor );
 Note that indexing is relative to the first index. To introduce an offset, use [`typed array`][mdn-typed-array] views.
 
 ```javascript
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
+var Float64Array = require( '@stdlib/array-float64' );
 
 function accessor( v ) {
     return v;
@@ -223,16 +228,11 @@ asinBy.ndarray( 3, x, 2, 1, y, -1, y.length-1, accessor );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-var uniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform' ).factory;
-import filledarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled@esm/index.mjs';
-import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import asinBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-asin-by@esm/index.mjs';
+```javascript
+var uniform = require( '@stdlib/random-base-uniform' ).factory;
+var filledarray = require( '@stdlib/array-filled' );
+var filledarrayBy = require( '@stdlib/array-filled-by' );
+var asinBy = require( '@stdlib/math-strided-special-asin-by' );
 
 function accessor( v, i ) {
     if ( (i%3) === 0 ) {
@@ -250,10 +250,6 @@ console.log( y );
 
 asinBy.ndarray( x.length, x, 1, 0, y, -1, y.length-1, accessor );
 console.log( y );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -277,7 +273,7 @@ console.log( y );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -307,8 +303,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-strided-special-asin-by.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-strided-special-asin-by
 
-[test-image]: https://github.com/stdlib-js/math-strided-special-asin-by/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/math-strided-special-asin-by/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/math-strided-special-asin-by/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/math-strided-special-asin-by/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-strided-special-asin-by/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-strided-special-asin-by?branch=main
@@ -341,7 +337,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
-[@stdlib/math/base/special/asin]: https://github.com/stdlib-js/math-base-special-asin/tree/esm
+[@stdlib/math/base/special/asin]: https://github.com/stdlib-js/math-base-special-asin
 
 </section>
 
