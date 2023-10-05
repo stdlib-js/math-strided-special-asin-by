@@ -40,14 +40,14 @@
     "@stdlib/math-base-special-asin": "^0.1.0",
     "@stdlib/strided-base-map-by": "^0.1.0",
     "@stdlib/types": "^0.1.0",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.0"
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/array-filled": "^0.1.0",
     "@stdlib/array-filled-by": "^0.1.0",
     "@stdlib/array-float64": "^0.1.0",
     "@stdlib/bench": "^0.1.0",
-    "@stdlib/math-base-assert-is-nan": "^0.1.0",
+    "@stdlib/math-base-assert-is-nan": "^0.1.1",
     "@stdlib/math-base-special-pow": "^0.1.0",
     "@stdlib/random-base-uniform": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
