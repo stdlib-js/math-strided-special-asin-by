@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-04-11)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`be9f744`](https://github.com/stdlib-js/stdlib/commit/be9f7445e37168f514e83041e80e9495c49fd9d9) - **bench:** refactor to use string interpolation in `math/strided/special` [(#11362)](https://github.com/stdlib-js/stdlib/pull/11362) _(by Karan Anand)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Karan Anand
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-08)
